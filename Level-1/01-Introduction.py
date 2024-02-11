@@ -21,9 +21,12 @@
 """
 
 """
-⭐️ Python Install
-- Python is already installed on Mac and Linux. install it on Windows
-- check in command prompt: python3 --version
+⭐️ Installation and Setup
+
+1. Check Existing Installation: Open a terminal or command prompt and type python3 --version. 
+    If Python is installed, you'll see its version number.
+2. Download and Install: If not installed, download Python from https://www.python.org/downloads/ 
+    and follow the installation instructions for your operating system.
 """
 
 """

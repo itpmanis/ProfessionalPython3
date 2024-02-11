@@ -1,6 +1,19 @@
 
 # ⭐️⭐️ Data Types ⭐️⭐️
 # category that defines the type of data a variable can hold, like numbers, text, or true/false values.
+"""
+Numeric Types:
+    - int (integer): whole number, positive or negative, without decimals, of unlimited length. 10, -50, 0, 1000
+    - float (floating-point): Represents numbers with decimals. positive or negative, containing one or more decimals. 10.0, -50.0, 0.0, 1000.0
+    - complex: number, written with a "j" as the imaginary part. 3+5j, 5j, -5j
+    
+Sequence Types:
+    - list: ordered and changeable. Allows duplicate members. [10, 20, 30, 40], [1, "hello", 3.14], ["apple", "banana", "cherry"]
+    - tuple: ordered and unchangeable. Allows duplicate members. (10, 20, 30, 40), (10, "Manish", True), ("Monday", "Tuesday", "Wednesday")
+    - range: ordered and immutable (unchangable). Represents a sequence of numbers. range(5) (generates numbers from 0 to 4), range(1, 10, 2) (generates numbers from 1 to 9, incrementing by 2) => 1, 3, 5, 7, 9
+
+Mapping Types: 
+"""
 
 # ⭐️ 1. Text Type: str
 first_name = "Manish"    # can use single or double quotes
