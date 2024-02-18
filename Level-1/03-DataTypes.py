@@ -1,6 +1,32 @@
 
 # ⭐️⭐️ Data Types ⭐️⭐️
 # category that defines the type of data a variable can hold, like numbers, text, or true/false values.
+"""
+Numeric Types:
+    - int (integer): whole number, positive or negative, without decimals, of unlimited length. 10, -50, 0, 1000
+    - float (floating-point): Represents numbers with decimals. positive or negative, containing one or more decimals. 10.0, -50.0, 0.0, 1000.0
+    - complex: number, written with a "j" as the imaginary part. 3+5j, 5j, -5j
+    
+Sequence Types:
+    - list: ordered and changeable. Allows duplicate members. [10, 20, 30, 40], [1, "hello", 3.14], ["apple", "banana", "cherry"]
+    - tuple: ordered and unchangeable. Allows duplicate members. (10, 20, 30, 40), (10, "Manish", True), ("Monday", "Tuesday", "Wednesday")
+    - range: ordered and immutable (unchangable). Represents a sequence of numbers. range(5) (generates numbers from 0 to 4), range(1, 10, 2) (generates numbers from 1 to 9, incrementing by 2) => 1, 3, 5, 7, 9
+
+Mapping Types: 
+    - dict (dictionary): It is a mapping type that allows you to store key-value pairs. {"name": "Manish", "age": 20, "married": False, "address": "Kathmandu"}
+    
+Set Types:
+    - set: Unordered collection of unique elements enclosed in curly braces {} . {"apple", "banana", "cherry"}
+    - frozenset: mmutable data type representing a fixed collection of unique elements.. frozenset({"apple", "banana", "cherry"})
+    
+Boolean Type:
+    - bool: boolean can have two values: True or False (1 or 0)
+    
+Special Type:
+    - bytes: immutable sequence of bytes. b"Hello"
+    - bytearray: mutable sequence of bytes. bytearray(b'Python')
+    - memoryview: provides a view of the internal memory of an object (such as bytes or bytearray) without copying. 
+"""
 
 # ⭐️ 1. Text Type: str
 first_name = "Manish"    # can use single or double quotes
