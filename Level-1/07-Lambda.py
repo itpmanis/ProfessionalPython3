@@ -5,18 +5,26 @@
 # lambda function ko syntax:
 # lambda arguments : expression
 
-add=lambda x,y:x+y
-print(add(2,3))
+def add(x, y): return x+y
+
+
+print(add(2, 3))
 
 print("--"*20)
 
-sum=lambda x:x+10
+
+def sum(x): return x+10
+
+
 print(sum(2))
 
 print("--"*20)
 
-x= lambda a,b,c: a+b-c
-print(x(2,3,4))
+
+def x(a, b, c): return a+b-c
+
+
+print(x(2, 3, 4))
 
 
 # uses of lambda function
