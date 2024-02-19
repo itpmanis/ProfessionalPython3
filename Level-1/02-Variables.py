@@ -26,3 +26,21 @@ print(age)                      # Output: 25
 
 # Python allows you to reassign a variable to a different data type.
 age = "Twenty Five"             # previous value of age was 25 (integer) but now it is "Twenty Five" (string)
+
+# Demonstrating the dynamic typing feature of Python:
+# Variables can change types after they have been set.
+print(age)                      # Output: Twenty Five
+
+
+# Valid variable names:
+fullName="Itp Manish"           # Camel Case
+full_name="Itp Manish"          # Snake Case
+_full_name="Itp Manish"         # Underscore Case but not recommended due to special meaning in Python, starts with underscore
+full_name_1="Itp Manish"        # Snake Case with number
+
+# Invalid variable names:
+# 1full_name="Itp Manish"        # Cannot start with a digit
+# full-name="Itp Manish"         # Cannot use hyphen
+# full name="Itp Manish"         # Cannot use space
+# full@name="Itp Manish"         # Cannot use special characters except underscore
+# full name="Itp Manish"         # Cannot use space
