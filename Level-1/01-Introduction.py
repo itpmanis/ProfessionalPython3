@@ -1,46 +1,59 @@
+
 """
 ⭐️ What is Python?
 - Python is a popular programming language.It is used for: web development (server-side), software development, mathematics, system scripting etc
+"""
 
+"""
 ⭐️ What can Python do?
-- Build websites and web applications:       Tools like Django and Flask make web development easy.
-- Automate tasks:       Simplify your work by automating file management, backups, and other repetitive jobs.
-- Work with databases:       Connect to and manage a variety of databases (MySQL, Oracle, etc.).
-- Analyze data and perform calculations:        Ideal for scientific research and handling big datasets.
-- Create software and prototypes:        Quickly build and test new software ideas.
+- Create Web Applications: Django, Pyramid, Bottle, Tornado, Flask, web2py
+- Automate Workflows: Automate system maintenance tasks, such as moving and cleaning up files or running backups.
+- Connect to Databases: It can also be used in database applications such as Oracle Database, MySQL, PostgreSQL, MongoDB, MariaDB, and so on.
+- Handle Big Data and Math: Python is widely used in scientific and numeric computing:
+- Prototyping and Software Development: Python is widely used in prototyping and building software applications.
+"""
 
+"""
 ⭐️ Why Python?
 - Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
 - Python has a simple syntax similar to the English language.
 - Python has syntax that allows developers to write programs with fewer lines than some other programming languages.
 - Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.
+"""
 
+"""
+⭐️ Python Install
+- Python is already installed on Mac and Linux. install it on Windows
+- check in command prompt: python3 --version
+"""
 
-⭐️ Python Installation
-Mac and Linux: Python typically comes pre-installed on these systems.
-Windows: Download the installer from the official Python website (https://www.python.org/downloads/) and follow the instructions.
-    Verifying Installation
-    - Open your command prompt (Windows) or terminal (Mac/Linux).
-    - Type python3 --version and press Enter.
-    - If installed correctly, you'll see the Python version displayed.
-
-
+"""
 ⭐️ Python File Extensions
-- Python source code files use the .py extension (e.g., my_script.py).
-
-⭐️ Running Python Files
-- Open your command prompt (Windows) or terminal (Mac/Linux).
-- python3 file_name.py and press Enter.
+- Python files have the extension .py
 
 """
 
-# This is single line comment  
-
 """
-This is a multi-line comment
-This is a multi-line comment
-This is a multi-line comment
+⭐️ Run Python File
+- Run Python in Terminal: python3 copy relevant file path
 """
 
-print("Hello, World!")  # Print is used to display the output on the screen
-print('Namaste Nepal')
+print("Hello, World!")
+
+print(1+2)  # addition(+)
+print(1-2)  # subtraction(-)
+print(1*2)  # multiplication(*)
+print(1/2)  # division(/)
+print(1 % 2)  # modulus(%)
+print(1**2)  # exponentiation(**)    exponential vanako 1^2 = 1, 2^3 = 8
+print(1//2)  # floor division(//)    1/2 = 0.5, 1//2 = 0 , 3//2 = 1 yo 3/2 = 1.5 vanako 3//2 = 1 huncha
+
+# Checking data types
+print(type(10))  # int
+print(type(3.14))  # float
+print(type(1+3j))  # complex
+print(type('manish'))  # str
+print(type([1, 2, 3]))  # list
+print(type({'name': 'manish', 'age': 23}))  # dict (dictionary)
+print(type({9.8, 3.14, 2.7}))  # set
+print(type((1, 'manish', 23)))  # tuple
