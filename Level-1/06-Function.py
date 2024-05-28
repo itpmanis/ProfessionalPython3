@@ -44,7 +44,6 @@ mul(2,3)    # 2 arguments
 # mul(2)       # 1 argument , 2 ota positional argument aspect garxa but we are passing 1 arguments
 print("--"*20)
 
-
 # ⭐️ Arbitrary Arguments, *args: if hamili tha xaina kati ota argument pass garne vani *args use garne, *args le unlimited argument accept garxa.
 def add(*args):
     sum=0
@@ -54,7 +53,6 @@ def add(*args):
     
 add(2,3,8,9,10,20,30,40,50,60,70,80,90,100)
 print("--"*20)
-
 
 # Default Parameter Value
 odd=[1,3,5,7,9]
@@ -66,7 +64,6 @@ def sum(list):
 
 sum(odd)
 print("--"*20)
-
 
 # return statement
 def add(num1,num2):
@@ -80,7 +77,6 @@ def hello():
 hello()
 
 print("--"*20)
-
 
 # ⭐️ Built in functions : built in function haru python ma pahile bata vako function haru hunxa.
 # 1. print() : screen ma text or value print garxa.
