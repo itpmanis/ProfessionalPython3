@@ -22,3 +22,4 @@ print(x(2,3,4))
 # - lambda function chai aru function ko vitra use hunxa.
 # - lambda function chai aru function ko return value hunxa.
 # - lambda function chai aru function ko parameter hunxa.
+
