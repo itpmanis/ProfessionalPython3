@@ -146,12 +146,11 @@ print("--"*20)
     2. Frozen Set (frozenset):
         - A frozen set is an immutable version of a set.
         - Once created, you cannot add or remove elements from a frozenset.
-    """
+"""
 friends_frozen = frozenset([1, 2, 3, 4])
 print(type(friends_frozen))     # <class 'frozenset'>
 print(friends_frozen)       # frozenset({1, 2, 3, 4})
 # friends_frozen.add(5)       # AttributeError: 'frozenset' object has no attribute 'add'
-
 
 # ⭐️ 6. Boolean Type: bool
 # boolean can have two values: True or False
@@ -321,9 +320,6 @@ print(f"8 % 6 = {8 % 6}")
 print(f"8 // 6 = {8 // 6}")
 print(f"8 ** 6 = {8 ** 6}")
 
-
-
-
 # ⭐️⭐️⭐️ Exercise : List⭐️⭐️⭐️
 # Declare an empty list
 empty_list = []
@@ -340,8 +336,6 @@ print(len(new_list))    # 5
 print("First Item: ", new_list[0])     # First Item:  Manish
 print("Middle Item:", new_list[len(new_list)//2])     # Middle Item: Yadav
 print("Last Item: ", new_list[-1])     # Last Item:  Nepal
-
-
 
 # Declare a list called mixed_data_types
 mixed_list = ["Manish", 20, 9804336000, True, 1000.00]
@@ -366,7 +360,6 @@ print(it_companies)     # ['Facebook', 'Google', 'Microsoft', 'Tiktok', 'Apple',
 print("--"*20)
 # Change one of the it_companies names to uppercase (IBM excluded!)
 print(it_companies[it_companies[0]== it_companies[0].upper()])    
-
 
 # Join the it_companies with a string '#; '
 print("#; ".join(it_companies))     # Facebook#; Google#; Microsoft#; Tiktok#; Apple#; IBM#; Oracle#; Amazon#; Twitter
@@ -452,8 +445,6 @@ print("Max - Average: ", max_average)     # Max - Average:  3.2
 countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
 middle_countries = countries[len(countries) // 2 - 1:len(countries) // 2 + 1]
 print(middle_countries)     # ['USA', 'Finland']
-
-
 
 # ⭐️⭐️⭐️ Exercise : Touple ⭐️⭐️⭐️
 
@@ -649,4 +640,3 @@ sentence = "I am a teacher and I love to inspire and teach people."
 unique_words = set(sentence.split())
 num_unique_words = len(unique_words)
 print("Number of unique words:", num_unique_words)
-

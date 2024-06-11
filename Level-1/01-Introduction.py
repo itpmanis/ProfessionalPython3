@@ -37,14 +37,12 @@
 - Run Python in Terminal: python3 copy relevant file path
 """
 
-
 # This is sinlge line comment
 """
 - This is multi-line comment
 - This is multi-line comment
 - This is multi-line comment
 """
-
 
 print("Hello, World!")   # Print Hello, World! to the console
 print("Addition: ", 2+3)  # Output:  Addition:  5

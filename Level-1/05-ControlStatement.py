@@ -133,7 +133,6 @@ else:
 print("--"*20)
     
     
-    
 # 2. for loops
 """
     syntax:
@@ -167,8 +166,7 @@ for country in countries:
     print(country)
 print("--"*20)
     
-    
-    
+  
 # range() function
 for x in range(6):
     print(x)
@@ -190,3 +188,4 @@ for country in countries:
     for city in cities:
         print(country, city)
 print("--"*20)
+

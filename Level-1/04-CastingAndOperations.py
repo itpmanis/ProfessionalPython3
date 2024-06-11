@@ -158,7 +158,6 @@ print(x > 3 or x < 4)       # True
 # False  : not le true lai false ma convert garxa and false lai true ma convert garxa
 print(not (x > 3 and x < 10))
 
-
 # 5. Identity Operators:
 # a. is
 x = ["apple", "banana"]
@@ -225,7 +224,6 @@ perimeter = 2 * (length + width)
 print("Area of rectangle is: ", area)
 print("Perimeter of rectangle is: ", perimeter)
 
-
 # Get radius of a circle using prompt. Calculate the area and circumference of the circle
 radius = int(input("Enter radius of circle: "))
 pi = 3.14
@@ -255,7 +253,6 @@ print("Slope is: ", slope)
 euclidean_distance = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 print("Euclidean distance is: ", euclidean_distance)
 print("--"*20)
-
 
 # Writ a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
 per_hour_rate = int(input("Enter per hour rate: "))
